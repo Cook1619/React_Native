@@ -1,32 +1,23 @@
 import React from 'react';
-import { StyleSheet, Text, View, Container, Header, Content, Card, Body } from 'react-native';
+import { StyleSheet, Text, View } from 'react-native';
 
 export default class App extends React.Component {
   render() {
     return (
-      <Container>
-        <Header />
-        <Content>
-          <Card>
-            <CardItem>
-              <Body>
-                <Text>
-                  HELLO WORLD!!!
-                </Text>
-              </Body>
-            </CardItem>
-          </Card>
-        </Content>
-      </Container>
+      <View style={StyleSheet.container}>
+        <Text>Some random text</Text>
+        <Text>Change this text to see change</Text>
+        <Text>What about a third line??</Text>
+      </View>
     );
   }
 }
 
-// const styles = StyleSheet.create({
-//   container: {
-//     flex: 1,
-//     backgroundColor: 'green',
-//     alignItems: 'center',
-//     justifyContent: 'center',
-//   },
-// });
+const styles = StyleSheet.create({
+  container: {
+    flex:1,
+    backgroundColor: 'red',
+    alignItems: 'center',
+    justifyContent: 'center'
+  }
+})
