@@ -8,6 +8,8 @@ export default class App extends React.Component {
         <Text>Some random text</Text>
         <Text>Change this text to see change</Text>
         <Text>What about a third line??</Text>
+        <Text>What about a third line??</Text>
+        <Text>This is another line of code</Text>
       </View>
     );
   }
@@ -16,7 +18,7 @@ export default class App extends React.Component {
 const styles = StyleSheet.create({
   container: {
     flex:1,
-    backgroundColor: 'red',
+    backgroundColor: 'blue',
     alignItems: 'center',
     justifyContent: 'center'
   }
